@@ -97,7 +97,7 @@ def webui():
         
         app,local_url,share_url = demo.launch(
             share=cmd_opts.share,
-            server_name="0.0.0.0" if cmd_opts.listen else None,
+            server_name="0.0.0.0",
             server_port=cmd_opts.port,
             debug=cmd_opts.gradio_debug,
             auth=[tuple(cred.split(':')) for cred in cmd_opts.gradio_auth.strip('"').split(',')] if cmd_opts.gradio_auth else None,

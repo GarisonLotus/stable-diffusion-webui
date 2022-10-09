@@ -135,7 +135,8 @@ else
     exit 1
 fi
 
-printf "\n%s\n" "${delimiter}"
-printf "Launching launch.py..."
-printf "\n%s\n" "${delimiter}"
-"${python_cmd}" "${LAUNCH_SCRIPT}"
+#printf "\n%s\n" "${delimiter}"
+#printf "Launching launch.py..."
+#printf "\n%s\n" "${delimiter}"
+#"${python_cmd}" "${LAUNCH_SCRIPT}"
+print "execite this to luanch: /home/ec2-user/local_ssd/stable-diffusion-webui/venv/bin/python3.8 /home/ec2-user/local_ssd/stable-diffusion-webui/webui.py"
